@@ -79,3 +79,34 @@ print(f"{first_name} {middle_name} {last_name}")
 food = "Rice"
 drink = "Juice"
 print(f"I love eating {food} and {drink}")
+
+name = "Hello world"
+print(name[6:])
+print(name.replace("Hello", "Hey there!"))
+print(name.split(","))
+
+price = 30
+print(f"i need ${price * 2} for my business")
+
+msgs = "we are the so-called \"Vikings\" from the north"
+print(msgs)
+
+##Classwork 11/11/2025
+print("This is the classwork for 11/11/2025")
+
+work_txt = "It\'s alright"
+print(work_txt)
+work_txt1 = "This is python.. true\\false ."
+print(work_txt1)
+work_txt2 = "Rice\nBeans"
+print(work_txt2)
+work_txt3 = "Dear\rRonaldo"
+print(work_txt3)
+work_txt4 = "This\tAssignment"
+print(work_txt4)
+work_txt5 = "Dolapo \bFashion \bWorld!"
+print(work_txt5)
+work_txt6 = "\160\146\154\164\157" #backslash followed by three integers will give in an octal value:
+print(work_txt6)
+work_txt7 = "\x48\x65\x6c\x6c\x6f"
+print(work_txt7)
