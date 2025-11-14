@@ -65,6 +65,7 @@ print(z)
 
 #back to lessons
 #DICTIONARIES
+print("USE OF DICTIONARIES")
 #it follows a principle
 #keys are unique whilst values can be changed
 student = {
@@ -84,5 +85,13 @@ print(student["age"])
 
 #to add keys and values to an already existing dictionary
 student["School"] = "UNICAL"
+print(student)
+
+#to delete a key and value from a dictionary
+student.pop("class")
+print(student)
+
+#pop items removes the last item in a dictionary without specifying the key
+student.popitem()
 print(student)
 
