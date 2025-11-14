@@ -94,4 +94,28 @@ print(student)
 #pop items removes the last item in a dictionary without specifying the key
 student.popitem()
 print(student)
+#to print the keys in a dictionary without the values
+for key in student:
+    ...
+    print(key)
+#.values() gets the values assigned to the key as typing without
+# it will print only the keys
+for value in student.values():
+    ...
+    print(value)
+#to get all the keys and their values together in a loop
+for key, value in student.items():
+    ...
+    print(f"{key} : {value}")
 
+#creating nested dictionaries in dictionary
+students = {
+    "s1" : {"name":"Pleasant", "age": 13},
+    "s2" : {"name":"Mrs. Blessing", "age": 31},
+    "s3" : {"name":"Anionted Prof", "age": 53},
+}
+#getting the keys and value of name only
+print(students["s1"]["name"])
+for key, value in students.items():
+    for i, j in value.items():
+        print(key, i, j)
