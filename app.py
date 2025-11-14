@@ -7,7 +7,7 @@ word3 = """to python class"""
 print(f"{word1}{word2}{word3}")
 
 sentence = "Python is fun to learn"
-print(sentence)
+print(sentence[4:9])
 
 message = """
  Python is powerful.
