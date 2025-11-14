@@ -117,5 +117,5 @@ students = {
 #getting the keys and value of name only
 print(students["s1"]["name"])
 for key, value in students.items():
-    for i, j in value.items():
+    for i, j in students.items():
         print(key, i, j)
